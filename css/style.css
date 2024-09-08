@@ -1,0 +1,270 @@
+ /* *{
+
+    border: 1px  solid red;
+} */  */
+
+/* body{
+
+    overflow-x: hidden;
+ } */
+ 
+.btn-banner {
+    margin-top: 20px;
+    background-color: rgb(192, 170, 131);
+}
+
+.btn-banner:hover {
+    background-color: rgb(32, 1, 2);
+    color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+#header ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+.img-bg {
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#center-text {
+    position: absolute;
+    z-index: 5;
+    left: 100px;
+    top: 200px;
+}
+
+
+.font-big {
+    font-size: 130px;
+  
+}
+
+.font-medium {
+    font-size: 50px;
+  
+}
+
+.top-hover:hover {
+    color: #C0AA83;
+    ;
+}
+
+.btn-banner {
+    margin-top: 20px;
+    background-color: rgb(192, 170, 131);
+}
+
+.btn-banner:hover {
+    background-color: rgb(32, 1, 2);
+    color: white;
+}
+
+#products {
+    padding-top: 200px;
+    background-color: rgb(22, 22, 22);
+}
+
+#products #nav-Coffee-tab,
+#nav-Greencoffee-tab,
+#nav-Roasted-coffee-tab,
+#nav-Italian-tab {
+    background: transparent;
+    color: white;
+    border: 1px solid #C0AA83;
+    border-radius: 10px;
+}
+
+#products #nav-Coffee-tab:hover,
+#nav-Greencoffee-tab:hover,
+#nav-Roasted-coffee-tab:hover,
+#nav-Italian-tab:hover {
+    background: #C0AA83;
+    color: #4b3309;
+    border: none;
+    transition: 1s;
+}
+
+#products .change-effect {
+    width: 170px;
+    height: 40px;
+    border: 1px solid #4b3309;
+    color: #4b3309;
+}
+
+#products .change-effect:hover {
+    border: none;
+    background-color: #C0AA83;
+    color: white;
+    box-shadow: 3px 3px 8px #4b3309;
+}
+
+#products .sale {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(156, 52, 33);
+    color: white;
+    font-style: bold;
+    margin-top: 10px;
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 20% 50%, 0 0);
+}
+
+#products #img-owl-h {
+    margin-top: 37px;
+}
+
+#products .card-hov:hover {
+    transform: translateY(-15px);
+    transition: 1s;
+}
+
+#btn-change {
+    background-color: #C0AA83;
+}
+
+#karla {
+    color: #C0AA83;
+}
+.text-primary {
+    color: #DA9F5B !important;
+}
+
+#trust {
+    height: 900px;
+}
+
+#trust .bg-img {
+    background: url(../Images/Illustration/coffee-cup-1.png) right no-repeat;
+    margin-top: 20px;
+}
+
+#trust h5 {
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+#trust h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+#trust .bg-img:hover h1,
+#trust .bg-img:hover h2 {
+    color: #583c0c;
+}
+
+#trust h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#trust h5 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#trust .changeeffect2 {
+    width: 180px;
+    height: 60px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #C0AA83;
+}
+
+#trust .changeeffect2:hover {
+    color: white;
+    background-color: rgb(85, 51, 6);
+    transition: 2s;
+}
+
+
+
+#blog {
+    height: 1100px;
+}
+
+#blog .card:hover h5 {
+    color: #C0AA83;
+}
+
+#blog .card:hover img {
+    transform: scale(1.1, 1.1);
+    transition: 2s;
+}
+
+#newsletter {
+    height: 350px;
+    background-color: #C0AA83;
+    background-position: center center;
+    background-size: cover;
+}
+
+.input-group {
+    border: 1px solid #DFF1D9;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.input-group input {
+    border: none;
+}
+
+ .back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 30px;
+    z-index: 11;
+    animation: action 1s infinite alternate;
+} 
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+ .btn-square, .btn-sm-square, .btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+} 
+.btn-lg, .btn-group-lg.btn {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0;
+}
+.btn-primary {
+    color: #2766a4;
+    background-color: #DA9F5B;
+    border-color: #DA9F5B;
+}  
+#count{
+    background: url(../Images/Background/coming-soon-b-img-1.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+.icon{
+    padding-top: 25px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid hwb(45 76% 11%);
+}
